@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  stackexchangeredissample:
+    image: stackexchangeredissample
+    build:
+      context: ./StackExchangeRedisSample
+      dockerfile: Dockerfile
